@@ -15,7 +15,6 @@ database = Database()
 class Sniffer:
     
     def __init__(self):
-        self.sniffing_data = {}
         self.PROCESSING = True
 
 
@@ -170,3 +169,4 @@ class Sniffer:
             markup.append(nav)
 
         return sniffs_text, InlineKeyboardMarkup(inline_keyboard=markup), total
+
